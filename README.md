@@ -1,7 +1,8 @@
 # WSLSetup
 
 ## Table of contents
-1. zshインストール
+1. zsh インストール
+1. Docker インストール
 
 ## zshインストール
 ```
@@ -19,3 +20,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 sed -i 's/^ZSH_THEME=.*/ZSH_THEME="agnoster"/' ~/.zshrc
 ```
 参考：oh my zshのテーマ一覧 [Themes](https://github.com/ohmyzsh/ohmyzsh/wiki/themes)
+
+## Dockerインストール
+```
+sudo apt update
+sudo apt install -y docker.io
+```
